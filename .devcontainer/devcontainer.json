@@ -21,7 +21,10 @@
 "customizations": {
 	"vscode": {
 		"extensions": [
-			"ms-mssql.sql-database-projects-vscode"
+			"ms-mssql.sql-database-projects-vscode",
+			"ms-azuretools.vscode-azurefunctions",
+			"ms-vscode.azure-account",
+			"ms-azuretools.vscode-azureresourcegroups"
 		]
 	}
 }
