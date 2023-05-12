@@ -1,1 +1,1 @@
-# codeSpaces-for-DB-Devs
+# codespace-for-DB-Devs
