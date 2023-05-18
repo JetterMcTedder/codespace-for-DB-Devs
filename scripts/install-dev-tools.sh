@@ -8,6 +8,7 @@ npm install -g @azure/static-web-apps-cli
 dotnet tool install --global Microsoft.DataApiBuilder
 sudo apt-get update
 sudo apt-get install sqlcmd
+PATH=$PATH:$HOME/.dotnet/tools
 dab --version 
 func version 
 dotnet --version
