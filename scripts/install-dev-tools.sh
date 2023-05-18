@@ -1,5 +1,5 @@
 dotnet tool install -g microsoft.sqlpackage
-dotnet new install Microsoft.Build.Sql.Templates
+dotnet new -i Microsoft.Build.Sql.Templates
 sudo cp ./scripts/ms-repo.pref /etc/apt/preferences.d/
 sudo apt-get update
 sudo apt-get install azure-functions-core-tools-4
