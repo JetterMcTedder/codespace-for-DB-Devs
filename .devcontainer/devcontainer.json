@@ -1,6 +1,6 @@
 {
 //  "image": "mcr.microsoft.com/devcontainers/dotnet:7.0",
-    "image": "mcr.microsoft.com/vscode/devcontainers/universal:1-linux",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-21.04",
 "features": {
 	"ghcr.io/devcontainers-contrib/features/npm-package:1": {
 		"package": "typescript",
