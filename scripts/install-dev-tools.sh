@@ -1,7 +1,7 @@
 dotnet tool install -g microsoft.sqlpackage
 dotnet new install Microsoft.Build.Sql.Templates
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+wget -q https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install azure-functions-core-tools-4
